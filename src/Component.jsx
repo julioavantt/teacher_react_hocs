@@ -1,14 +1,14 @@
-const withStyle = WrappedComponent => {
-	function Inner(props) {
+const withStyle = ComponentAsParameter => {
+	function Inner() {
 		return (
-			<WrappedComponent
-				{...props}
+			<ComponentAsParameter
 				style={{
 					background: "red",
 					width: 300,
 					margin: "30px auto",
 					height: 200,
 				}}
+				customizada="si"
 			/>
 		)
 	}
@@ -16,13 +16,25 @@ const withStyle = WrappedComponent => {
 	return Inner
 }
 
-const Component = props => {
-	return (
-		<div customProperty={2} {...props}>
-			SOY UN DIV1
-		</div>
-	)
-}
+/* const withStyle = WrappedComponent => () =>
+	(
+		<WrappedComponent
+			style={{
+				background: "red",
+				width: 300,
+				margin: "30px auto",
+				height: 200,
+			}}
+			customizada="si"
+		/>
+	) */
+
+const Component = props => (
+	<div customproperty={2} {...props}>
+		{console.log({ props })}
+		SOY UN DIV ABURRIDO
+	</div>
+)
 
 export default Component
 //export default withStyle(Component)
