@@ -4,7 +4,7 @@ export default function HOCAddStyle(ComponentAsParameter) {
 		return (
 			<ComponentAsParameter
 				{...props}
-				style={{
+				/* style={{
 					background: "red",
 					width: 300,
 					margin: "30px auto",
@@ -12,7 +12,7 @@ export default function HOCAddStyle(ComponentAsParameter) {
 					padding: "1rem",
 					fontSize: "2rem",
 				}}
-				pepe={1}
+				pepe={1} */
 			/>
 		)
 	}
