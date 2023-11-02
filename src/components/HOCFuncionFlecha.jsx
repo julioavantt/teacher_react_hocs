@@ -1,4 +1,4 @@
-const HOCAddArrow = WrappedComponent => propis =>
-	<WrappedComponent {...propis} colorprops="blues" />
+const HOCAddArrow = WrappedComponent => prop =>
+	<WrappedComponent {...prop} colorprops="blues" />
 
 export default HOCAddArrow

@@ -8,6 +8,6 @@ const Component = props => (
 	</div>
 )
 
-export default Component
+//export default Component
 //export default HOCAddStyle(Component)
-/* export default HOCAddArrow(HOCAddStyle(Component)) */
+export default HOCAddArrow(HOCAddStyle(Component))

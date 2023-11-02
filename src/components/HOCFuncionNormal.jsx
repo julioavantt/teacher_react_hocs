@@ -1,6 +1,6 @@
 export default function HOCAddStyle(ComponentAsParameter) {
 	function Inner(props) {
-		//console.log("prop From App", props)
+		console.log("prop From App", props)
 		return (
 			<ComponentAsParameter
 				{...props}
@@ -12,7 +12,7 @@ export default function HOCAddStyle(ComponentAsParameter) {
 					padding: "1rem",
 					fontSize: "2rem",
 				}}
-				customizada="si"
+				pepe={1}
 			/>
 		)
 	}
