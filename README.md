@@ -18,7 +18,7 @@
 -  🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
    <br>
 
-## Este repo trata sobre: El método .map en React.
+## Este repo trata sobre: High Order Components (HOCs) en React.
 
 -  Esta aplicación está creada con Create React App.
 -  Para iniciarla, luego de clonar, ejecute npm i para instalar dependencias y luego mpm start para arrancar el servidor de desarrollo.
