@@ -1,5 +1,3 @@
-import Component from "./Component"
-
 export default function HOCAddStyle(ComponentAsParameter) {
 	function Inner(props) {
 		/* console.log("prop From App", props) */
@@ -20,5 +18,3 @@ export default function HOCAddStyle(ComponentAsParameter) {
 
 	return Inner
 }
-
-
