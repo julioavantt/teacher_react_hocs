@@ -3,7 +3,7 @@ import HOCAddArrow from "./HOCFuncionFlecha"
 
 const Component = props => (
 	<div customproperty={2} {...props}>
-		{/* {console.log("Props Component", props)} */}
+		{console.log("Props Component", props)}
 		SOY UN DIV ABURRIDO
 	</div>
 )

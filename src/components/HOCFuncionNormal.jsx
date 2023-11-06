@@ -1,10 +1,12 @@
+import Component from "./Component"
+
 export default function HOCAddStyle(ComponentAsParameter) {
 	function Inner(props) {
-		console.log("prop From App", props)
+		/* console.log("prop From App", props) */
 		return (
 			<ComponentAsParameter
 				{...props}
-				/* style={{
+				style={{
 					background: "red",
 					width: 300,
 					margin: "30px auto",
@@ -12,10 +14,11 @@ export default function HOCAddStyle(ComponentAsParameter) {
 					padding: "1rem",
 					fontSize: "2rem",
 				}}
-				pepe={1} */
 			/>
 		)
 	}
 
 	return Inner
 }
+
+
